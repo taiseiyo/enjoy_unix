@@ -1,0 +1,32 @@
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages
+#+TITLE: 始めようPython入門(環境構築編)
+#+AUTHOR: taiseiyo11
+#+EMAIL:     (concat "taisei@kwansei.ac.jp")
+#+LANGUAGE:  jp
+# +OPTIONS:   H:4 toc:t num:2
+#+qiita_id: taiseiyo11
+#+OPTIONS:   toc:nil
+#+TAG: 初心者, Python3, Web スクレイピング
+#+TWITTER: off
+# +SETUPFILE: ~/.emacs.d/org-mode/theme-readtheorg.setup
+
+![ruby-2.5.5p157](https://img.shields.io/badge/ruby-2.5.5p157-brightgreen) 
+
+* venv を導入しよう
+
+- venv とは
+  [[https://docs.python.org/ja/3/library/venv.html][venvの公式説明]]
+- 何故いれるのか
+  
+* 使いかた
+
+まず以下のコマンドで venv を導入します
+
+#+begin_src 
+mkdir enjoy-unix
+cd enjoy-unix
+python3 -m venv ./venv
+#+end_src
+
+この後は venv を起動するために ./venv/

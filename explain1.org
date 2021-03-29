@@ -1,0 +1,68 @@
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages
+#+TITLE: 始めようPython入門(環境構築編)
+#+AUTHOR: taiseiyo11
+#+EMAIL:     (concat "taisei@kwansei.ac.jp")
+#+LANGUAGE:  jp
+# +OPTIONS:   H:4 toc:t num:2
+#+qiita_id: taiseiyo11
+#+OPTIONS:   toc:nil
+#+TAG: 初心者, Python3, Web スクレイピング
+#+TWITTER: off
+# +SETUPFILE: ~/.emacs.d/org-mode/theme-readtheorg.setup
+
+![ruby-2.5.5p157](https://img.shields.io/badge/ruby-2.5.5p157-brightgreen) 
+
+* venv を導入しよう
+
+- venv とは
+  [[https://docs.python.org/ja/3/library/venv.html][venvの公式説明]] → 仮想環境を構築してくれるモジュール
+  
+- 何故いれるのか
+  - 自分の環境を壊さないようにする為
+  - テスト環境として使う
+  - 始めの環境からプログラムが動作するかの確認
+
+* 環境構築
+
+** venv 導入
+まず以下のコマンドで venv を導入します
+
+#+begin_src bash
+mkdir enjoy-unix
+cd enjoy-unix
+python3 -m venv .venv
+#+end_src
+
+** venv 起動 & モジュールインストール
+この後は venv を起動するために ./venv/bin/ に移動
+
+#+begin_src bash
+source activate
+#+end_src
+
+簡単に普段の動作とどのように変化しているのかの確認を行います
+
+- PYTHONPATH
+  - [[https://ja.wikipedia.org/wiki/%E7%92%B0%E5%A2%83%E5%A4%89%E6%95%B0][環境変数について]]
+- module のインストール先
+
+ではこの状態で今回の講義で必要なモジュールをインストールします。下記の
+二個のモジュールをインストールして下さい(venv 内の pip を使う事)
+
+- requests
+- beautifulsoup4
+- pyfzf
+
+*pip* とはなんなのか？
+
+#+begin_src bash 
+man pip
+#+end_src
+
+** venv 終了
+venv(仮想環境)を終了する場合は以下のコマンドを使用する
+
+#+begin_src bash 
+deactive
+#+end_src

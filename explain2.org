@@ -1,0 +1,26 @@
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages
+#+TITLE: 始めようPython入門(実装編)
+#+AUTHOR: taiseiyo11
+#+EMAIL:     (concat "taisei@kwansei.ac.jp")
+#+LANGUAGE:  jp
+# +OPTIONS:   H:4 toc:t num:2
+#+qiita_id: taiseiyo11
+#+OPTIONS:   toc:nil
+#+TAG: 初心者, Python3, Web スクレイピング
+#+TWITTER: off
+# +SETUPFILE: ~/.emacs.d/org-mode/theme-readtheorg.setup
+
+![ruby-2.5.5p157](https://img.shields.io/badge/ruby-2.5.5p157-brightgreen) 
+
+* モジュールについて
+** requests の使いかた
+   URL: [[https://docs.python-requests.org/en/master/user/quickstart/][requestsを使う為の資料]]
+   
+** Beautifulsoup の使いかた
+   URL: [[https://pypi.org/project/beautifulsoup4/][Beautifulsoupを使う為の資料]]
+
+* 実装
+- URL から HTML を取得する
+- 取得した HTML を解析する
+- 欲しい URL の取得
