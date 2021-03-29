@@ -13,7 +13,7 @@
 - 資料
   - [[https://github.com/taiseiyo/enjoy_unix_lecture_materials/blob/main/explain/explain1.org][環境構築]]
   - [[https://github.com/taiseiyo/enjoy_unix_lecture_materials/blob/main/explain/explain2.org][コード実装]]
-  - [[https://github.com/taiseiyo/enjoy_unix_lecture_materials/blob/main/explain/advanced.org][少し応用編]]
+  - [[https://github.com/taiseiyo/enjoy_unix_lecture_materials/blob/main/explain/advanced.org][少し応用編(時間が余った時)]]
 
 - 注意事項
   - 本講義はミュート、ビデオオフで参加して下さい。質問がある方のみミュー
