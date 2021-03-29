@@ -30,3 +30,10 @@
  - URL から HTML を取得する
  - 取得した HTML を解析する
  - 欲しい URL の取得
+
+
+** 仮想環境について
+講義を終了して、仮想環境が必要ない人は以下のコマンドを実行して下さい
+#+begin_src bash
+rm -r enjoy_unix
+#+end_src
