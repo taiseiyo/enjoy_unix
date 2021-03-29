@@ -11,8 +11,8 @@
   - 懇親会(任意参加)
 
 - 資料
-  - 環境構築
-  - コード実装
+  - [[https://github.com/taiseiyo/enjoy_unix_lecture_materials/blob/main/explain/explain1.org][環境構築]]
+  - [[https://github.com/taiseiyo/enjoy_unix_lecture_materials/blob/main/explain/explain2.org][コード実装]]
 
 - 注意事項
 
