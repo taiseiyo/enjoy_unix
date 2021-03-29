@@ -17,10 +17,16 @@
 ** requests の使いかた
    URL: [[https://docs.python-requests.org/en/master/user/quickstart/][requestsを使う為の資料]]
    
+   本日使用するメソッド：requests.get()
+
 ** Beautifulsoup の使いかた
    URL: [[https://pypi.org/project/beautifulsoup4/][Beautifulsoupを使う為の資料]]
 
+   本日使用するメソッド：BeautifulSoup(html,"html.parser").find_all()
+
 * 実装
-- URL から HTML を取得する
-- 取得した HTML を解析する
-- 欲しい URL の取得
+
+流れ
+ - URL から HTML を取得する
+ - 取得した HTML を解析する
+ - 欲しい URL の取得
