@@ -1,0 +1,35 @@
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages
+#+TITLE: 始めようPython入門(応用編)
+#+AUTHOR: taiseiyo11
+#+EMAIL:     (concat "taisei@kwansei.ac.jp")
+#+LANGUAGE:  jp
+# +OPTIONS:   H:4 toc:t num:2
+#+qiita_id: taiseiyo11
+#+OPTIONS:   toc:nil
+#+TAG: 初心者, Python3, Web スクレイピング
+#+TWITTER: off
+# +SETUPFILE: ~/.emacs.d/org-mode/theme-readtheorg.setup
+
+![ruby-2.5.5p157](https://img.shields.io/badge/ruby-2.5.5p157-brightgreen) 
+
+* 簡易自作ボットを作ってみよう
+** モジュール
+以下のモジュールを扱う
+- line_notify
+
+** 使いかた
+URL: [[https://pypi.org/project/line_notify/][line_notify]]
+
+[[https://notify-bot.line.me/en/][ここから自分のアカウントを作成]]
+
+** 作成したプログラムをスケジュール登録
+扱うコマンド
+- cron
+- crontab
+
+インストール方法
+#+begin_src bash 
+sudo apt install cron
+#+end_src
+
