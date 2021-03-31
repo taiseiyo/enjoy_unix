@@ -2,7 +2,7 @@
 
 ** タイトル：「始めよう Python プログラミング」
 
-- 到達目標： Python の基礎を理解して、Qiita の記事から自分の好きな記事
+- 到達目標： Python の基礎を理解して、Qiita を扱いながら Python の基礎知識を習得する
   を取得してくる
 
 - 本日の流れ
@@ -13,6 +13,7 @@
 - 資料
   - [[https://github.com/taiseiyo/enjoy_unix_lecture_materials/blob/main/explain/explain1.org][環境構築]]
   - [[https://github.com/taiseiyo/enjoy_unix_lecture_materials/blob/main/explain/explain2.org][コード実装]]
+  - [[https://github.com/taiseiyo/enjoy_unix_lecture_materials/blob/main/explain/explain3.org][API について]]
   - [[https://github.com/taiseiyo/enjoy_unix_lecture_materials/blob/main/explain/advanced.org][少し応用編(時間が余った時)]]
 
 - 注意事項

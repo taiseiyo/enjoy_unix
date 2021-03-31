@@ -1,0 +1,31 @@
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages
+#+TITLE: 始めようPython入門(発展編)
+#+AUTHOR: taiseiyo11
+#+EMAIL:     (concat "taisei@kwansei.ac.jp")
+#+LANGUAGE:  jp
+# +OPTIONS:   H:4 toc:t num:2
+#+qiita_id: taiseiyo11
+#+OPTIONS:   toc:nil
+#+TAG: 初心者, Python3, API
+#+TWITTER: off
+# +SETUPFILE: ~/.emacs.d/org-mode/theme-readtheorg.setup
+
+![ruby-2.5.5p157](https://img.shields.io/badge/ruby-2.5.5p157-brightgreen) 
+
+* API を使ってみよう
+** API とは？
+[[https://en.wikipedia.org/wiki/API][APIについて]]
+
+- In computing, an application programming interface (API) is an
+  interface that defines interactions between multiple software
+  applications or mixed hardware-software intermediaries.
+
+- コンピューティングでは、アプリケーションプログラミングインターフェイ
+  ス(API)は、複数のソフトウェアアプリケーション間またはハードウェアと
+  ソフトウェアの混合中間体間の相互作用を定義するインターフェイスです。
+
+
+** Qiita API
+- [[https://qiita.com/api/v2/docs][Qiita APIの説明]]
+- [[https://github.com/petitviolet/qiita_py][Python Wrapper for Qiita API v2]]
