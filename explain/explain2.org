@@ -29,8 +29,7 @@
    [[https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.websec-room.com%2Fwp-content%2Fuploads%2F2013%2F02%2Fpic001_thumb.png&f=1&nofb=1][説明図]] ← イメージ図
    
    本日使用するメソッド：requests.get()
-   
-   
+      
 
 ** Beautifulsoup の使いかた
    URL: [[https://pypi.org/project/beautifulsoup4/][Beautifulsoupを使う為の資料]]
