@@ -8,7 +8,6 @@
 - 本日の流れ
   - 環境構築
   - コード実装
-  - 懇親会(任意参加)
 
 - 資料
   - [[https://github.com/taiseiyo/enjoy_unix_lecture_materials/blob/main/explain/explain1.org][環境構築]]

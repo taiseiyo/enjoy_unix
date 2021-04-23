@@ -68,7 +68,6 @@ python get-pip.py
 - beautifulsoup4
 - pyfzf
 
-
 ** venv 終了
 venv(仮想環境)を終了する場合は以下のコマンドを使用する
 
