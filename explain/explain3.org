@@ -34,3 +34,5 @@
 Python Wrapper for Qiita API v2 を使用して以下の 2 点を行う
 - https://qiita.com/taiseiyo11/items/48c42e25fbd29071ec46 に *LGTM(いいね)* をする
 - user_id: taiseiyo11 の過去に投稿した記事のタイトルを全て取得する
+  
+上記の問題では qiita_v2 以外のモジュールは使用してはいけない
