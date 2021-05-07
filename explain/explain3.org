@@ -25,10 +25,10 @@
   ス(API)は、複数のソフトウェアアプリケーション間またはハードウェアと
   ソフトウェアの混合中間体間の相互作用を定義するインターフェイスです。
 
-
 ** Qiita API
 - [[https://qiita.com/api/v2/docs][Qiita API v2の説明]]
 - [[https://github.com/petitviolet/qiita_py][Python Wrapper for Qiita API v2]]
+- [[https://qiita.com/login][Qiita login]]
 
 ** API を使って行う事
 Python Wrapper for Qiita API v2 を使用して以下の 2 点を行う
