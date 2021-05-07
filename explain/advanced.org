@@ -33,3 +33,10 @@ URL: [[https://pypi.org/project/line_notify/][line_notify]]
 sudo apt install cron
 #+end_src
 
+使いかた
+#+begin_src bash 
+crontab -e
+↓ それぞれのタイミング
+分 時 日 月 曜日 コマンド
+#+end_src
+
